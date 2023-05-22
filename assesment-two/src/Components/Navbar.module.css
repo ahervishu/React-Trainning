@@ -1,0 +1,24 @@
+.navbar{
+    height: 4rem;
+    background-color: rgb(81, 81, 81);
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0 69px ;
+    font-size: 22px;
+    gap: 10rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    /* position: relative; */
+}
+.active, .inactive {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.active{
+    margin-top: -4px;
+    border-bottom: 4px solid blue;
+}
